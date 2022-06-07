@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:museumproject/Pages/Login/ForgetPassword.dart';
+import 'package:museumproject/Pages/Login/Profile.dart';
 import 'package:museumproject/Pages/Login/RegisterPage.dart';
 
 class LoginPage extends StatefulWidget {
@@ -115,7 +116,9 @@ class _LoginPageState extends State<LoginPage> {
                     height: size.height * 0.03,
                   ),
                   InkWell(
-                    onTap: () {},
+                    onTap: () {
+                      Get.to(() => HomePage());
+                    },
                     child: Container(
                       padding: EdgeInsets.symmetric(vertical: 5),
                       decoration: BoxDecoration(

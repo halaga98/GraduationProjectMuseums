@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:museumproject/Custom/CustomCachedNetworkImage.dart';
+import 'package:museumproject/Pages/AllMuseum/CityMusems.dart';
 import 'package:museumproject/Pages/Model/Musem/MusemModel.dart';
 
 class CityCard extends StatelessWidget {
@@ -11,7 +12,11 @@ class CityCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InkWell(
-      onTap: () {},
+      onTap: () {
+        Get.to(() => CityMusems(
+              model: model,
+            ));
+      },
       child: Container(
         height: 250,
         margin: EdgeInsets.symmetric(vertical: 2),
