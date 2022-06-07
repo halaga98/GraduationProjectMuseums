@@ -23,7 +23,7 @@ class _AppState extends State<App> {
   /// The future is part of the state of our widget. We should not call `initializeApp`
   /// directly inside [build].
   Future<SharedPreferences> _prefs = SharedPreferences.getInstance();
-  late int c;
+  late int fg;
   Prefs() async {
     final SharedPreferences prefs = await _prefs;
     if (prefs.getBool("key") == null) {
