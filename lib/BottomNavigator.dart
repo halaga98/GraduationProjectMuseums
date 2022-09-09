@@ -1,8 +1,9 @@
 import 'package:fancy_bottom_navigation/fancy_bottom_navigation.dart';
 import 'package:flutter/material.dart';
-import 'package:museumproject/Pages/AllMuseum/CityMuseum.dart';
-import 'package:museumproject/Pages/FavoriteMusems/FavoriteMusems.dart';
-import 'package:museumproject/Pages/Login/LoginPage.dart';
+
+import 'Pages/AllMuseum/CityMuseum.dart';
+import 'Pages/FavoriteMusems/FavoriteMusems.dart';
+import 'Pages/Login/LoginPage.dart';
 
 class BottomNavigator extends StatefulWidget {
   @override

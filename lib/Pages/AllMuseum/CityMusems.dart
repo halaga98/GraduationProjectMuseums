@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:museumproject/Pages/AllMuseum/MuseumCard.dart';
-import 'package:museumproject/Pages/Model/Musem/MusemModel.dart';
+import 'package:untitled1/Pages/Model/Musem/MusemModel.dart';
+
+import 'MuseumCard.dart';
 
 class CityMusems extends StatefulWidget {
   final MuseumModel model;

@@ -5,10 +5,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 import 'package:get/get.dart';
 import 'package:map_launcher/map_launcher.dart';
-import 'package:museumproject/Custom/CustomCachedNetworkImage.dart';
-import 'package:museumproject/Pages/Comment/CommentPage.dart';
-import 'package:museumproject/Pages/Login/LoginPage.dart';
-import 'package:museumproject/Pages/Model/Musem/MusemModel.dart';
+import 'package:untitled1/Custom/CustomCachedNetworkImage.dart';
+
+import 'package:untitled1/Pages/Comment/CommentPage.dart';
+import 'package:untitled1/Pages/Login/LoginPage.dart';
+import 'package:untitled1/Pages/Model/Musem/MusemModel.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class MuseumDetailScreen extends StatefulWidget {

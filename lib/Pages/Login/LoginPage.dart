@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:museumproject/Pages/Login/ForgetPassword.dart';
-import 'package:museumproject/Pages/Login/Profile.dart';
-import 'package:museumproject/Pages/Login/RegisterPage.dart';
+
+import 'package:untitled1/Pages/Profile/Profile.dart';
+
+import 'ForgetPassword.dart';
+import 'RegisterPage.dart';
 
 class LoginPage extends StatefulWidget {
   @override

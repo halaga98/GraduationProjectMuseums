@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:museumproject/Custom/CustomCachedNetworkImage.dart';
-import 'package:museumproject/Pages/Detail/MuseumDetailScreen.dart';
-import 'package:museumproject/Pages/Model/Musem/MusemModel.dart';
+import 'package:untitled1/Custom/CustomCachedNetworkImage.dart';
+import 'package:untitled1/Pages/Detail/MuseumDetailScreen.dart';
+import 'package:untitled1/Pages/Model/Musem/MusemModel.dart';
 
 class MuseumCard extends StatelessWidget {
   final Datum data;

@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:museumproject/Pages/Login/LoginPage.dart';
+
+import 'LoginPage.dart';
 
 class RegisterPage extends StatefulWidget {
   @override

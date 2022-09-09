@@ -4,9 +4,11 @@ import 'dart:core';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:museumproject/Pages/AllMuseum/CityCard.dart';
-import 'package:museumproject/Pages/Model/Musem/MusemModel.dart';
+
 import 'package:http/http.dart' as http;
+import 'package:untitled1/Pages/Model/Musem/MusemModel.dart';
+
+import 'CityCard.dart';
 
 class CityMuseum extends StatefulWidget {
   CityMuseum({Key? key}) : super(key: key);

@@ -3,8 +3,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:museumproject/Custom/UserAccountDrawer.dart';
-import 'package:museumproject/Pages/Profile/MyProfile.dart';
+
+import 'package:untitled1/Custom/UserAccountDrawer.dart';
+
+import 'MyProfile.dart';
 
 class HomePage extends StatefulWidget {
   @override

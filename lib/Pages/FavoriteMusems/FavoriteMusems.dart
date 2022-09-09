@@ -8,8 +8,9 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:http/http.dart' as http;
-import 'package:museumproject/Pages/Detail/MuseumDetailScreen.dart';
-import 'package:museumproject/Pages/Model/Musem/MusemModel.dart';
+
+import 'package:untitled1/Pages/Detail/MuseumDetailScreen.dart';
+import 'package:untitled1/Pages/Model/Musem/MusemModel.dart';
 
 class FavoriteMusems extends StatefulWidget {
   FavoriteMusems({Key? key}) : super(key: key);

@@ -1,9 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:museumproject/Custom/CustomCachedNetworkImage.dart';
-import 'package:museumproject/Pages/AllMuseum/CityMusems.dart';
-import 'package:museumproject/Pages/Model/Musem/MusemModel.dart';
+
+import 'package:untitled1/Custom/CustomCachedNetworkImage.dart';
+import 'package:untitled1/Pages/Model/Musem/MusemModel.dart';
+
+import 'CityMusems.dart';
 
 class CityCard extends StatelessWidget {
   final MuseumModel model;

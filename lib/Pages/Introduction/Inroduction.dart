@@ -2,8 +2,10 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:introduction_screen/introduction_screen.dart';
-import 'package:museumproject/BottomNavigator.dart';
-import 'package:museumproject/Pages/Login/RegisterPage.dart';
+
+import 'package:untitled1/Pages/Login/RegisterPage.dart';
+
+import '../../BottomNavigator.dart';
 
 class Introduction extends StatefulWidget {
   @override
